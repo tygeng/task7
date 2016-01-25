@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Task7:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Task7_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Task7" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="org.wisdom-framework:mysql-connector-java:5.1.34_1" />
+          <element id="library" level="project" name="formbeanfactory-2.1.0" />
+          <element id="library" level="project" name="genericdao-2.0.2" />
+          <element id="library" level="project" name="Hibernate Validator-5.0.1" />
+          <element id="library" level="project" name="standard-1.1.2" />
+          <element id="library" level="project" name="jstl-1.1.2_and_standard_1.1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Task7/web/Web" />
+    </root>
+  </artifact>
+</component>
